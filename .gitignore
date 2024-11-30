@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Build output
+/dist
+/build
+
+# OS-specific files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Optional, if using coverage reports
+coverage/
+
+# Optional, if using Docker
+.docker/
+
+# Optional, if using package lock file
+package-lock.json
+yarn.lock
