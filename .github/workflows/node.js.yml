@@ -28,5 +28,5 @@ jobs:
     - run: npm ci
     - run: |
         touch .env
-        echo "f{{ secrets.TODO_ENV_FILE }}" > .env
+        echo $"f{{ secrets.TODO_ENV_FILE }}" > .env
         
