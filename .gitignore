@@ -27,6 +27,3 @@ coverage/
 # Optional, if using Docker
 .docker/
 
-# Optional, if using package lock file
-package-lock.json
-yarn.lock
